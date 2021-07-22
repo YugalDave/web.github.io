@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+#header{
+    background-color: rgb(3, 3, 124);
+    padding: 20px;
+}
+.a-header{
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 10px;
+   font-size: larger;
+   
+}
+nav{
+   text-align: center;
+}
+a:hover{
+    color: rgb(36, 230, 36);
+}
+#img{
+    padding: 50px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+}
+#first-para {
+    margin-top: -225px;
+    margin-right: 300px;
+    margin-left: 540px;
+}
+#img-link{
+    background-color: green;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 540px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+#second{
+    padding: 50px;
+    margin-top: -30px;
+}
+.second-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#second-para {
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-right: 800px;
+    margin-left:0px ;
+}
+#learn{
+    color: rgb(16, 139, 16);
+}
+#last-img{
+    margin-top: -453px;
+    margin-left: 590px;
+}
+#last-para{
+    margin-top: 10px;
+    padding-right: 250px;
+}
